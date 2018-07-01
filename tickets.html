@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link rel="stylesheet" href="css/style.css">
+       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Limelight|Merienda+One" rel="stylesheet">
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+       <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+       <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <title>Mobile Grid</title>
+    </head>
+    
+    <body class="container-tickets">
+        <div class="header">
+            <div class="logo">London</div>
+            <div class="line"></div>
+            <div class="categories">
+              <div class="fa " id="info"></div>
+               <a href="info.html" class="info-btn">Traveller information</a>
+               
+                
+                <input type="search" placeholder="search" class="input_search">
+                <i class="fas fa-search search"></i>
+            </div>
+            
+            <div class="line"></div>
+            <div class="icons">
+                <i class="far fa-user user"></i>
+                <i class="fab fa-uber uber"></i>
+                <i class="fas fa-globe globe"></i>
+            </div>
+            
+            
+        </div>
+        <div class="menu">
+           
+           <a href="index.html" class="list_item">Home</a>
+           <a href="tickets.html" class="list_item">Tickets &amp; offers</a>
+           <a href="todo.html" class="list_item">Things to do</a>
+           <a href="restaurants.html" class="list_item">Restaurants</a>
+           <a href="accomodation.html" class="list_item">Accomodation</a>
+            
+        </div>
+        
+          <div class="ticket">
+                <figure class="tickets tickets-1">
+                   
+                    <img src="img/ballet-545291_640.jpg" alt="gal1" class="tickets__img">
+                    <figcaption>London's art</figcaption>
+               </figure>
+               <figure class="tickets tickets-2">
+                    <img src="img/london-eye-at-night-1031945_1280.jpg" alt="gal1" class="tickets__img">
+                    <figcaption>Top attractions</figcaption>
+               </figure>
+               <figure class="tickets tickets-3">
+                    <img src="img/river-541456_1280.jpg" alt="gal1" class="tickets__img">
+                    <figcaption>River cruises</figcaption>
+               </figure>
+               <figure class="tickets tickets-4">
+                    <img src="img/london-2960812_640.jpg" alt="gal1" class="tickets__img">
+                    <figcaption>London by bus</figcaption>
+               </figure>
+               <figure class="tickets tickets-5">
+                    <img src="img/london-2393098_1280.jpg" alt="gal1" class="tickets__img">
+                    <figcaption>London's history</figcaption>
+               </figure>    
+        </div>            
+             
+       
+         <div class="footer">
+            <div class="logo logo-footer">
+               London
+                <p class="footer_text">&amp; partners</p>
+            </div>
+            
+            <div class="copy_text">
+                <p> &copy; 2018 Andra Strachinaru</p>
+            </div>
+            
+           
+        </div>
+        <script src="jquery.ripples-min.js"></script>
+        <script>
+            jQuery(document).ready(function(){
+                "use strict"
+                
+                $('.img-container').ripples({
+                resolution: 250,
+                dropRadius: 40,
+                perturbance: 0.003,
+                });
+            });
+        </script>
+        <script src="script.js"></script>
+    </body></html>

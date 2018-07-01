@@ -1,0 +1,91 @@
+
+
+{
+    "particles": {
+        "number": {
+            "value": 50,
+            "density": {
+                "enable": true,
+                "value_area": 800
+      }
+        },
+        "color": {
+            "value": ["#e20628"]
+        },
+        "shape": {
+            "type": "circle",
+            "stroke": {
+              "width": 0,
+                "color": "ccc"
+            }
+        },
+        "opacity":{
+            "value":0.8,
+            "random": false,
+            "anim": {
+                "enable": false,
+                "speed": 1,
+                "opacity_min": 0.1,
+                "sync": false
+      }
+        },
+        "size": {
+            "value": 3,
+            "random": false,
+            "anim": {
+                "enable": true,
+                "speed": 8,
+                "size_min": 0.8,
+                "sync": false
+            }
+        },
+        "line_linked": {
+            "enable": false,
+            "distance": 400,
+            "color": "#e20628",
+            "opacity": 0.7,
+            "width": 0.5
+        },
+        "move":{
+            "enable": true,
+            "speed": 3,
+            "direction": "none",
+            "random": true,
+            "straight": false,
+            "out_mode": "bounce",
+            "bounce": false,
+            "random": true,
+            "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 1200
+      }
+        }
+    },
+    "interactivity": {
+        "events": {
+            "onhover": {
+                "enable": true,
+                "mode": "grab"
+            },
+            "onclick": {
+                "enable": true,
+                "mode": "bubble"
+            }
+        },
+        "modes": {
+            
+            "bubble": {
+                "distance": 400,
+                "size": 5,
+                "duration": 0.5,
+                "opacity": 0.8,
+                "speed": 3
+              },
+            "grab": {
+                "distance": 400,
+                "duration": 0.8
+            }
+        }
+    }
+}
