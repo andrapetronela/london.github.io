@@ -41,6 +41,13 @@
         margin: 3rem 0;
         
     }
-    
+    .text-container {
+        grid-gap: 0;
+    }
+    .transport-text {
+          padding: 0rem; }
+    .info-text {
+          grid-column: 2 / 9;
+     }
 }
 
