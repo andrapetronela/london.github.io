@@ -30,8 +30,6 @@ function getWeather(woeid) {
     //console.log(data)
     
     const today = data.consolidated_weather[0];
-    city.textContent = `${data.title},`;
-    country.textContent = `${data.parent.title}`;
     date.textContent = `${today.applicable_date}`;
     let min_temp = Math.trunc(`${today.min_temp}`);
         

@@ -377,7 +377,8 @@
   background-image: url("london-2393098_1280.jpg");
   background-size: cover;
   background-position: center;
-  transition: all 3s; }
+  transition: all 3s;
+background-color: rgba(235, 235, 235, 0.43);}
 
 
 .hero::before {
