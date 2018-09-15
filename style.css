@@ -630,7 +630,7 @@ background-color: rgba(235, 235, 235, 0.43);}
   transform: scale(1.15); }
 
 .text-card {
-  padding: 2rem 2rem 2rem 4rem;
+  padding-left: 4rem;
   color: #fff;
   font-size: 1.3rem; }
 

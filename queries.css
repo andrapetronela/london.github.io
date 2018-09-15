@@ -53,6 +53,9 @@
     .ticket {
         grid-template-columns: .2rem repeat(9,1fr) .2rem;
     }
+    .img-container {
+        background-size: 100%;
+    }
     .card-todo {
         grid-column: 1 / -1;
         grid-template-columns: .2rem repeat(3, 1fr) .2rem;
@@ -60,7 +63,7 @@
     }
     
     .card-rest {
-        width: 90vw;
+        width: 100%;
     }
 }
 
