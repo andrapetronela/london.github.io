@@ -47,7 +47,17 @@
     .transport-text {
           padding: 0rem; }
     .info-text {
-          grid-column: 2 / 9;
+          grid-column: 3 / 9;
+          padding: 2rem;
      }
+    .ticket {
+        grid-template-columns: .2rem repeat(9,1fr) .2rem;
+    }
+    .card-todo {
+        grid-column: 1 / -1;
+        grid-template-columns: .2rem repeat(3, 1fr) .2rem;
+        grid-gap: 1.5rem;
+    }
+   
 }
 
