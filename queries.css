@@ -58,9 +58,7 @@
         grid-template-columns: .2rem repeat(3, 1fr) .2rem;
         grid-gap: 1.5rem;
     }
-    .card-img-container {
-        display: none;
-    }
+    
     .card-rest {
         width: 90vw;
     }
