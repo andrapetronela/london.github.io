@@ -19,15 +19,13 @@ let max = document.querySelector('#max');
 let date = document.querySelector('#date');
 
 function getWeather(woeid) {
-    fetch(`https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/${woeid}`) // returns a promise
+    fetch(`https://www.metaweather.com/api/location/${woeid}`) 
 
 .then(result => {
-    //console.log(result)
     return result.json();
 })
 
 .then(data => {
-    //console.log(data)
     
     const today = data.consolidated_weather[0];
     date.textContent = `${today.applicable_date}`;
@@ -37,7 +35,7 @@ function getWeather(woeid) {
         
     min.textContent = `Min: ${min_temp}\xB0C`;
     max.textContent = `Max: ${max_temp}\xB0C`;
-    //forecast.textContent = (`Temperatures in ${data.title} stay between ${min_temp} and ${max_temp} degrees.`);
+    
 })
 .catch(err => 
     console.log(err));
