@@ -14,18 +14,17 @@
 }
 
 @media only screen and (max-width: 990px) {
-    html {
-        font-size: 78%;
-    }
+   
     .hero {
         height: 70vh;
     }
     
     .header {
           height: 4rem;
-          grid-template-columns: 2fr 1px 3.5fr 1px .6fr;
+          grid-template-columns: 1fr 1px 3.5fr 1px .6fr;
           align-items: center;
           position: relative; }
+   
     .menu {
           height: 6rem;
           font-size: 1.45rem;
@@ -70,3 +69,21 @@
     }
 }
 
+@media only screen and (max-width: 540px) {
+  .menu {
+      display: flex;
+      flex-wrap: wrap;
+      height: auto;
+    }
+    
+  .header {
+      grid-template-columns: 1fr 1px 3.5fr 1px .6fr;
+      grid-column-gap: 0;
+    }
+  .search {
+      right: .5rem;
+ }
+    
+  .input_search {
+      display: none;}
+}
