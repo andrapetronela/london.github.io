@@ -19,7 +19,7 @@ let max = document.querySelector('#max');
 let date = document.querySelector('#date');
 
 function getWeather(woeid) {
-    fetch(`https://www.metaweather.com/api/location/${woeid}`) 
+    fetch(`https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/${woeid}`) 
 
 .then(result => {
     return result.json();
