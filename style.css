@@ -426,22 +426,23 @@ background-color: rgba(235, 235, 235, 0.43);}
   grid-column: 1 / -1;
   height: 15rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center; }
+  align-items: center;
+ grid-template-columns: .5fr 6fr;
+  }
 
-.logo-footer {
-  justify-self: center;
-  margin-left: -25rem; }
 
 .footer_text {
   font-size: 1.2rem;
   letter-spacing: 1px;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.82); }
+  color: rgba(255, 255, 255, 0.82);
+  }
 
 .copy_text {
   justify-self: center;
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+    margin-left: -5rem;
+}
 
 .grid {
   justify-self: end;

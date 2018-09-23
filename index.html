@@ -133,9 +133,15 @@
             </div>
             
             <div class="copy_text">
-                <p> &copy; 2018 Andra Strachinaru</p>
+                <p> &copy; 
+                  <span id="year"></span>      Andra Strachinaru</p>
             </div>
         </div>
+        <script>
+              let d = new Date();
+              let year = d.getFullYear();
+            document.getElementById("year").textContent = year;
+        </script>
          <script>
             jQuery(document).ready(function(){
                 "use strict"
